@@ -14,7 +14,7 @@ This lab includes:
 ---
 
 ## Steps Performed
-1. 1. Created Resource Group (rg-azure-lab01) in East US region
+1. Created Resource Group (rg-azure-lab01) in East US region
       - A Resource Group is a logical container in Azure used to organize and manage related resources like VMs, storage, and networking. It allows you to manage lifecycle, permissions, and cost as a unit.
 2. Deployed Storage Account
 3. Created Virtual Machine
