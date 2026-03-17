@@ -14,7 +14,7 @@ This lab includes:
 ---
 
 ## Steps Performed
-1. Created Resource Group (rg-azure-lab01) in East US region
+1. Created Resource Group (rg-azure-lab01) in the East US region
       - A Resource Group is a logical container in Azure used to organize and manage related resources like VMs, storage, and networking. It allows you to manage lifecycle, permissions, and cost as a unit.
 2. Created Storage Account (khameleonstorage01) with Standard performance and LRS redundancy
       - A Storage Account in Azure is a scalable and secure service that stores data such as blobs, files, queues, and tables. It provides a globally accessible namespace for cloud data.
@@ -22,7 +22,7 @@ This lab includes:
       - I configure inbound NSG rules to allow SSH on port 22, then connect using the VM’s public IP.
 4. Connected to VM using SSH (port 22)
 5. Updated Linux system packages
-6. Installed and started NGINX web server
+6. Installed and started the NGINX web server
      - I deployed a Linux VM, configured SSH access, connected remotely, and installed a web server to validate external connectivity.
 ---
 
@@ -46,6 +46,27 @@ This lab includes:
 This setup represents the foundation of cloud infrastructure used in enterprise environments for hosting applications and storing data.
 
 ---
+
+## Additional Configuration
+
+- Connected to VM via SSH (port 22)
+- Installed and configured NGINX web server
+- Opened port 80 in the Network Security Group to allow HTTP traffic
+- Verified web server accessibility via public IP
+
+---
+
+## Troubleshooting
+
+- Initial connection to the web server failed due to port 80 being closed
+- Resolved by adding an inbound rule in NSG to allow HTTP (port 80)
+
+---
+
+## Cost Management
+
+- VM was stopped and deallocated after use to prevent compute charges
+- Learned the difference between "Stopped" and "Stopped (Deallocated)" states
 
 ## Next Steps
 - Add screenshots of deployed resources
