@@ -14,5 +14,15 @@ Understand and implement Azure Role-Based Access Control (RBAC)
 - Assign RBAC role
 - Test permissions
 
+## Additional Testing
+
+- Attempted to access Microsoft Entra ID
+- Access was denied due to a lack of directory-level permissions
+
+## Key Insight
+
+- Azure RBAC does NOT grant access to Azure AD
+- Identity and resource permissions are separate systems
+  
 ## Outcome
 Demonstrated ability to control access to Azure resources using RBAC
