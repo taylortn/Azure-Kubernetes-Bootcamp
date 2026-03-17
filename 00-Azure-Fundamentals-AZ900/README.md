@@ -18,7 +18,8 @@ This lab includes:
       - A Resource Group is a logical container in Azure used to organize and manage related resources like VMs, storage, and networking. It allows you to manage lifecycle, permissions, and cost as a unit.
 2. Created Storage Account (khameleonstorage01) with Standard performance and LRS redundancy
       - A Storage Account in Azure is a scalable and secure service that stores data such as blobs, files, queues, and tables. It provides a globally accessible namespace for cloud data.
-4. Created Virtual Machine
+3. Deployed Virtual Machine (vm-lab01) with SSH access enabled (port 22)
+      - I configure inbound NSG rules to allow SSH on port 22, then connect using the VM’s public IP.
 
 ---
 
@@ -33,6 +34,7 @@ This lab includes:
 Successfully deployed and verified Azure resources in the Azure Portal.
 Successfully created and verified a Resource Group in Azure to organize all lab resources.
 Provisioned a Storage Account to store cloud data with high availability and scalability.
+Successfully provisioned a Virtual Machine and adapted deployment based on available Azure subscription resources.
 
 ---
 
