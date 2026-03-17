@@ -31,10 +31,10 @@ This lab includes:
 ---
 
 ## Outcome
-Successfully deployed and verified Azure resources in the Azure Portal.
-Successfully created and verified a Resource Group in Azure to organize all lab resources.
-Provisioned a Storage Account to store cloud data with high availability and scalability.
-Successfully provisioned a Virtual Machine and adapted deployment based on available Azure subscription resources.
+- Successfully deployed and verified Azure resources in the Azure Portal.
+- Successfully created and verified a Resource Group in Azure to organize all lab resources.
+- Provisioned a Storage Account to store cloud data with high availability and scalability.
+- Successfully provisioned a Virtual Machine and adapted deployment based on available Azure subscription resources.
 
 ---
 
