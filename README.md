@@ -1,43 +1,63 @@
-# Azure-Kubernetes-Bootcamp
-Azure + Kubernetes Bootcamp with hands-on labs covering AZ-900, AZ-104, and AKS deployments.
+# ☁️ Azure Kubernetes Bootcamp
 
-# Azure + Kubernetes Bootcamp 🚀
-
-## Overview
-This repository contains hands-on labs designed to build real-world experience with Microsoft Azure and Kubernetes (AKS).
-
-The goal is to move beyond theory and develop practical cloud engineering skills aligned with AZ-900 and AZ-104 certifications.
+This project showcases hands-on experience with Azure Kubernetes Service (AKS) and container orchestration in a cloud environment.
 
 ---
 
-## What This Repo Covers
-- Azure Fundamentals (AZ-900)
-- Azure Administration (AZ-104)
-- Kubernetes Core Concepts
-- Azure Kubernetes Service (AKS)
-- DevOps & CI/CD Pipelines
+## 🚀 Project Overview
+
+The goal of this lab is to understand how modern applications are deployed and managed using containers and Kubernetes in Azure.
+
+This project reflects real-world cloud-native infrastructure where applications are containerized and orchestrated at scale.
 
 ---
 
-## Lab Structure
-Each folder represents a hands-on lab:
+## 🧠 Key Concepts Covered
 
-- 00-Azure-Fundamentals-AZ900
-- 01-Identity-Governance
-- 02-Compute-Storage
-- 03-Networking
-- 04-Monitoring-Backup
-- 05-Kubernetes-Core
-- 06-AKS-Deployment
-- 07-DevOps-CICD
-- 08-Real-World-Project
+- Kubernetes architecture and components  
+- Azure Kubernetes Service (AKS) deployment  
+- Containerization using Docker  
+- Managing and scaling containerized applications  
+- Kubernetes resources (pods, deployments, services)  
 
 ---
 
-## Purpose
-This bootcamp is designed to simulate real-world cloud engineering scenarios and provide project-based experience for interviews.
+## 🛠️ Technologies Used
+
+- Microsoft Azure  
+- Azure Kubernetes Service (AKS)  
+- Docker  
+- Kubernetes (kubectl, YAML manifests)  
 
 ---
 
-## Author
-Ta'Nara Taylor | Cloud Engineer | Builder 💻🔥
+## 🎯 What This Project Demonstrates
+
+- Deploying containerized applications to the cloud  
+- Managing workloads using Kubernetes  
+- Understanding cloud-native infrastructure  
+- Scaling and maintaining applications in AKS  
+
+---
+
+## 🔧 Example Tasks
+
+- Creating and managing AKS clusters  
+- Deploying applications using Kubernetes manifests  
+- Scaling workloads and managing services  
+- Monitoring and troubleshooting deployments  
+
+---
+
+## 🔮 Future Improvements
+
+- Integrate CI/CD pipeline for automated deployments  
+- Add monitoring and logging (Azure Monitor)  
+- Implement security best practices (RBAC, network policies)  
+- Deploy multi-container applications  
+
+---
+
+## 💡 Why This Matters
+
+Kubernetes is the standard for managing containerized applications in modern cloud environments. This project demonstrates how applications can be deployed, scaled, and managed efficiently using Azure Kubernetes Service.
